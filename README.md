@@ -26,6 +26,17 @@ There are two parts:
   updates the screen. A counter makes the values grow on each save so
   you can see them change.
 
+  ## How to Test
+
+1. Open the project in Unity 6.
+2. Open the main scene and press Play.
+3. The Scriptable Object values display at the top of the screen.
+4. Click **Save & Load** to store new PlayerPrefs values. The PlayerPrefs text
+   updates each click.
+5. Stop and replay, the last saved values load automatically, proving the data
+   persists between sessions.
+
+
 ## Screenshots
 
 **Scriptable Object Creation**
